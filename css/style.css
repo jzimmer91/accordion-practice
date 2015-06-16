@@ -1,0 +1,19 @@
+
+.accordion-title{
+	background-color: blue;
+	border-style: solid;
+	
+	
+	padding:10px;
+}
+.accordion-body{
+	border-style:solid;
+	background-color:gray;
+	display:none;
+	padding:10px;
+}
+.visited{
+	background-color:red;
+	text-decoration: line-through;
+}
+

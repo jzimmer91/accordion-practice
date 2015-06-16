@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion Practice</title>
+
+    <script id="accordion-template" type="text/x-handlebars-template">
+      <div class='accordion-title'>{{data.title}}</div>
+        <div class='accordion-body'>{{data.body}}</div>        
+      
+     <hr/>
+    </script>
+    <script id='form-template' type='text/template'>
+      <form class='create-accordion'>
+        Number of:<br>
+        <input type="text" name="number"><br>
+        Title:<br>
+        <input type="text" name="title"><br>
+        Body:<br>
+        <input type="text" name="body"><br>
+        <button type='submit'>Create</button>
+      </form>
+      <hr/>
+    </script>
+</head>
+
+<body>
+
+<div class='container'>
+  
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://documentcloud.github.com/underscore/underscore-min.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+<script type='text/javascript' src="js/app.js"></script>
+<script type='text/javascript' src="js/handlers.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+
+
+</body>
+</html>
